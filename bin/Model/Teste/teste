@@ -1,0 +1,40 @@
+import java.io.*;
+import java.time.*;
+import java.util.*;
+
+import Model.Configuracao.Configuracao;
+import Model.Fabricante.Fabricante;
+import Model.Pagamento.CartaoCredito;
+import Model.Pagamento.Dinheiro;
+import Model.Pagamento.Pagamento;
+import Model.Pagamento.Pix;
+import Model.Produto.Eletrodomesticos;
+import Model.Produto.Eletronicos;
+import Model.Produto.Moveis;
+import Model.Produto.Produto;
+import Model.Produto.Vestuario;
+import Model.Transportadora.Transportadora;
+import Model.Usuario.*;
+import Model.Venda.ItemVenda;
+import Model.Venda.Venda;
+
+public class teste{
+    public static void main(String [] args){
+       
+
+
+        for(Usuario uso: clientes){
+            system.out.println(uso);
+        }
+
+        for(Usuario uso: gerentes){
+            system.out.println(uso);
+        }
+
+
+
+    }
+
+
+
+}
